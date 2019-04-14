@@ -1,0 +1,7 @@
+<h1>This is our posts route..</h1>
+
+{{#each posts as |post|}}
+    title: {{post.title}}<br>
+    body: {{post.body}}<br>
+    by: {{post.user.name}}<br>
+{{/each}}
